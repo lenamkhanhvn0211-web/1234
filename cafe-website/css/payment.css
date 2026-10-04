@@ -1,0 +1,4 @@
+/* CSS riêng trang Thanh toán */
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.msg-ok{color:var(--ok);font-weight:600}
+@media(max-width:700px){.two-col{grid-template-columns:1fr}}
